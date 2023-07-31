@@ -1,5 +1,5 @@
-console.log('Hello World!')
-const user = "Jane Doe"
-const firstName = "Doe"
-console.log(user)
-console.log(firstName)
+// 12. Переменные и значения
+let a = 1;
+console.log(a);
+a = 'Test';
+console.log(a);
