@@ -53,19 +53,35 @@
 // console.log(b);
 
 //16. Типы данных
-let a = 5;
-let b = 5.7;
-console.log(typeof a);
-console.log(typeof b);
-a = 'Stepan'
-console.log(typeof a);
-let isAdmin = true;
-console.log(typeof isAdmin);
-isAdmin = 40 > 30;
-console.log(typeof isAdmin);
-let c;
-console.log(typeof c);
-c = 5;
-console.log(typeof c);
-let d = null;
-console.log(typeof (d == null));
+// let a = 5;
+// let b = 5.7;
+// console.log(typeof a);
+// console.log(typeof b);
+// a = 'Stepan'
+// console.log(typeof a);
+// let isAdmin = true;
+// console.log(typeof isAdmin);
+// isAdmin = 40 > 30;
+// console.log(typeof isAdmin);
+// let c;
+// console.log(typeof c);
+// c = 5;
+// console.log(typeof c);
+// let d = null;
+// console.log(typeof (d == null));
+
+//17. Упражнение - Расчёт проекта
+const saleryPerhour = 80
+const daysPerWeek = 5
+const hoursPerday = 5
+const offerwork = 40
+
+const hoursPerWeek = daysPerWeek * hoursPerday
+console.log(hoursPerWeek)
+
+const deadLine = (11 - 2) *5
+
+console.log(deadLine)
+
+console.log(deadLine > offerwork)
+console.log(offerwork * saleryPerhour)
