@@ -22,17 +22,32 @@
 
 //14. Операторы присваивания и сравнения
 // Присваивание
-let age = 18 + 2;
-age += 5; // age = age + 5
-age *= 2; // age = age * 2
-age /= 2;
-age ++ // age = age + 1
-age -- //age = age - 1
-console.log('I am ' + age + ' years old');
-// Сравнение:
-let Stepan = 25;
-console.log(Stepan < age);
-console.log(Stepan <= age);
-console.log(Stepan > age);
-console.log(Stepan >= age);
-console.log(Stepan == age);
+// let age = 18 + 2;
+// age += 5; // age = age + 5
+// age *= 2; // age = age * 2
+// age /= 2;
+// age ++ // age = age + 1
+// age -- //age = age - 1
+// console.log('I am ' + age + ' years old');
+// // Сравнение:
+// let Stepan = 25;
+// console.log(Stepan < age);
+// console.log(Stepan <= age);
+// console.log(Stepan > age);
+// console.log(Stepan >= age);
+// console.log(Stepan == age);
+
+// 15. Порядок операторов
+const isSuited = 100 - 10 > 90 - 5;
+console.log(isSuited);
+
+// isSuited = 100 -(12) 10 >(10) 90 -(12) 5;
+
+const a = (5 + 5) / 2;
+console.log(a);
+
+let b;
+let c;
+c = b = 100 + 50;
+console.log(c);
+console.log(b);
