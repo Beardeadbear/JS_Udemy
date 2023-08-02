@@ -126,3 +126,17 @@
 // const a = 2 + '10';
 // console.log(a);
 // console.log(a - 10);
+
+//20. False из других типов
+
+console.log(Boolean(1))
+console.log(Boolean(0))
+console.log(Boolean('qwe'))
+console.log(Boolean(''))
+console.log(Boolean(undefined))
+console.log(Boolean(NaN))
+console.log(Boolean(null))
+
+let a;
+console.log(Boolean(a))
+console.log(typeof Boolean)
