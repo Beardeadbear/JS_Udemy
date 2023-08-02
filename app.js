@@ -102,3 +102,27 @@
 // console.log(templ3)
 // console.log(templ4)
 
+// 19. Преобразование типов
+
+// const age = '10';
+// console.log(age + 5);
+// console.log(Number(age) + 5);
+// console.log(age - 3);
+
+// const userName = 'Stepan';
+
+// console.log(userName + 5)
+// console.log(Number(userName) + 5)
+// console.log(typeof NaN)
+
+// console.log(1 + 4);
+// console.log(String(1) + 4);
+
+// console.log(Boolean(1))
+// console.log(Boolean(0))
+// console.log(Boolean('qwe'))
+// console.log(Boolean(''))
+
+// const a = 2 + '10';
+// console.log(a);
+// console.log(a - 10);
