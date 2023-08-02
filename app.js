@@ -71,17 +71,34 @@
 // console.log(typeof (d == null));
 
 //17. Упражнение - Расчёт проекта
-const saleryPerhour = 80
-const daysPerWeek = 5
-const hoursPerday = 5
-const offerwork = 40
+// const saleryPerhour = 80
+// const daysPerWeek = 5
+// const hoursPerday = 5
+// const offerwork = 40
 
-const hoursPerWeek = daysPerWeek * hoursPerday
-console.log(hoursPerWeek)
+// const hoursPerWeek = daysPerWeek * hoursPerday
+// console.log(hoursPerWeek)
 
-const deadLine = (11 - 2) *5
+// const deadLine = (11 - 2) *5
 
-console.log(deadLine)
+// console.log(deadLine)
 
-console.log(deadLine > offerwork)
-console.log(offerwork * saleryPerhour)
+// console.log(deadLine > offerwork)
+// console.log(offerwork * saleryPerhour)
+
+// 18. Шаблонные строки
+
+// const projectName = 'website'
+// const projectPrice = 2000;
+// const autor = 'Stepan Bandera'
+// const templ1 = `${autor} has ordered ${projectName} for $${projectPrice}`
+// const templ2 = autor + ' has ordered ' + projectName + ' for $' + projectPrice
+// const templ3 = 'Project name: ' + projectName + '\nProject price: ' + projectPrice + '\nProject author: ' + autor
+// const templ4 = `Project name: ${projectName}
+// Project price: ${projectPrice}
+// Project author: ${autor}`
+// console.log(templ1)
+// console.log(templ2)
+// console.log(templ3)
+// console.log(templ4)
+
