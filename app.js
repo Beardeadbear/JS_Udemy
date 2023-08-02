@@ -1,3 +1,5 @@
+//Section 4. Основы
+
 // 12. Переменные и значения
 // let a = 1;
 // console.log(a);
@@ -129,14 +131,34 @@
 
 //20. False из других типов
 
-console.log(Boolean(1))
-console.log(Boolean(0))
-console.log(Boolean('qwe'))
-console.log(Boolean(''))
-console.log(Boolean(undefined))
-console.log(Boolean(NaN))
-console.log(Boolean(null))
+// console.log(Boolean(1))
+// console.log(Boolean(0))
+// console.log(Boolean('qwe'))
+// console.log(Boolean(''))
+// console.log(Boolean(undefined))
+// console.log(Boolean(NaN))
+// console.log(Boolean(null))
 
-let a;
-console.log(Boolean(a))
-console.log(typeof Boolean)
+// let a;
+// console.log(Boolean(a))
+// console.log(typeof Boolean)
+
+//Section 5: Управление потоками
+
+//21. If else
+
+const balance = 40
+const price = 70
+const priceMini = 50
+const canBuy = balance >= price
+if (balance >= price){
+    console.log('You can buy this product')
+}
+
+else if (balance >= priceMini){
+    console.log('You can buy MINI product')
+}
+
+else {
+    console.log('You cannot by this product')
+}
