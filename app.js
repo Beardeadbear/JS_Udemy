@@ -147,18 +147,36 @@
 
 //21. If else
 
-const balance = 40
-const price = 70
-const priceMini = 50
-const canBuy = balance >= price
-if (balance >= price){
-    console.log('You can buy this product')
-}
+// const balance = 40
+// const price = 70
+// const priceMini = 50
+// const canBuy = balance >= price
+// if (balance >= price){
+//     console.log('You can buy this product')
+// }
 
-else if (balance >= priceMini){
-    console.log('You can buy MINI product')
-}
+// else if (balance >= priceMini){
+//     console.log('You can buy MINI product')
+// }
 
-else {
-    console.log('You cannot by this product')
-}
+// else {
+//     console.log('You cannot by this product')
+// }
+
+//22. Упражнение - Размещение депозита
+
+// const depositUSD = 10000;
+// const annualRate = 0.07;
+// const  duration = 24;
+// const sum = depositUSD * (1 + annualRate / 12) ** 24;
+// console.log(sum)
+// const houseCost = 13500
+
+// if (sum > houseCost) {
+//     console.log(`Yes, can buy. Residue will be $${sum - houseCost}`)
+// }
+
+// else {
+//     console.log('No, cannot buy')
+// }
+
