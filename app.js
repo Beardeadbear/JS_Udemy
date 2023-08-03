@@ -195,20 +195,20 @@
 
 // 24. Switch
 
-const userRole = 'Admin'
+// const userRole = 'Admin'
 
-if (userRole === 'Admin') {
-    console.log('Current user: Admin')
-}
-else if (userRole === 'Moderator') {
-    console.log('Current user: Moderator')
-}
-else if (userRole === 'Staff') {
-    console.log('Current user: Staff')
-}
-else {
-    console.log('not logged-in user')
-}
+// if (userRole === 'Admin') {
+//     console.log('Current user: Admin')
+// }
+// else if (userRole === 'Moderator') {
+//     console.log('Current user: Moderator')
+// }
+// else if (userRole === 'Staff') {
+//     console.log('Current user: Staff')
+// }
+// else {
+//     console.log('not logged-in user')
+// }
 
 // switch (userRole) {
 //     case "Admin":
@@ -224,29 +224,47 @@ else {
 //         console.log('not logged-in user');
 // }
 
-switch (userRole) {
-    case "Admin":    
-    case "Moderator":
-        console.log('Admin role')
-        break;
-    case 'Staff':
-        console.log('None admin role')
-        break;
-    default:
-        console.log('not logged-in user');
-}
+// switch (userRole) {
+//     case "Admin":    
+//     case "Moderator":
+//         console.log('Admin role')
+//         break;
+//     case 'Staff':
+//         console.log('None admin role')
+//         break;
+//     default:
+//         console.log('not logged-in user');
+// }
 
-const num = 1;
+// const num = 1;
 
-switch (true) {
-    case num > 0:
-        console.log('Num is Positive value');
-        break;
-    case num < 0:
-        console.log('Num is Negative value');
-        break;
-    default:
-        console.log('Num is Null');
+// switch (true) {
+//     case num > 0:
+//         console.log('Num is Positive value');
+//         break;
+//     case num < 0:
+//         console.log('Num is Negative value');
+//         break;
+//     default:
+//         console.log('Num is Null');
+// }
 
-        
-}
+// 25. Тернарные операторы
+
+// const budgetUSD = 10000;
+// const vwPriceUSD = 25000;
+// const bmwPriceUSD = 35000;
+// let message = `${budgetUSD >= bmwPriceUSD ? "BMW":budgetUSD >= vwPriceUSD ? "VW" : 'Not affordable'}`
+// console.log(`My next car is ${message}`)
+
+// // if (budgetUSD >= bmwPriceUSD ) {
+// //     message =  'Can buy BMW'
+// // }
+// // else if(budgetUSD >= vwPriceUSD) {
+// //     message =  'Can buy VW'
+// // }
+// // else {
+// //     message = "Car is not affordable"
+// // }
+
+// // console.log(` ${budgetUSD >= bmwPriceUSD ? message:message}`)
