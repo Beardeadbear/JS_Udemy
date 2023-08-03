@@ -180,3 +180,15 @@
 //     console.log('No, cannot buy')
 // }
 
+//23. Операторы равенства
+
+const q = '7';
+
+if (q === 7) {
+
+    console.log('угадал строго')
+}
+
+if (q == 7) {
+    console.log('угалдал не строго')
+}
