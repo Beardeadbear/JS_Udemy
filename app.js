@@ -182,13 +182,71 @@
 
 //23. Операторы равенства
 
-const q = '7';
+// const q = '7';
 
-if (q === 7) {
+// if (q === 7) {
 
-    console.log('угадал строго')
+//     console.log('угадал строго')
+// }
+
+// if (q == 7) {
+//     console.log('угалдал не строго')
+// }
+
+// 24. Switch
+
+const userRole = 'Admin'
+
+if (userRole === 'Admin') {
+    console.log('Current user: Admin')
+}
+else if (userRole === 'Moderator') {
+    console.log('Current user: Moderator')
+}
+else if (userRole === 'Staff') {
+    console.log('Current user: Staff')
+}
+else {
+    console.log('not logged-in user')
 }
 
-if (q == 7) {
-    console.log('угалдал не строго')
+// switch (userRole) {
+//     case "Admin":
+//         console.log('Current user: Admin')
+//         break;
+//     case "Moderator":
+//         console.log('Current user: Moderator')
+//         break;
+//     case 'Staff':
+//         console.log('Current user: Staff')
+//         break;
+//     default:
+//         console.log('not logged-in user');
+// }
+
+switch (userRole) {
+    case "Admin":    
+    case "Moderator":
+        console.log('Admin role')
+        break;
+    case 'Staff':
+        console.log('None admin role')
+        break;
+    default:
+        console.log('not logged-in user');
+}
+
+const num = 1;
+
+switch (true) {
+    case num > 0:
+        console.log('Num is Positive value');
+        break;
+    case num < 0:
+        console.log('Num is Negative value');
+        break;
+    default:
+        console.log('Num is Null');
+
+        
 }
