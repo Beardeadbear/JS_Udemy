@@ -258,13 +258,13 @@
 // console.log(`My next car is ${message}`)
 
 // // if (budgetUSD >= bmwPriceUSD ) {
-// //     message =  'Can buy BMW'
+// //     message =  'BMW'
 // // }
 // // else if(budgetUSD >= vwPriceUSD) {
-// //     message =  'Can buy VW'
+// //     message =  'VW'
 // // }
 // // else {
-// //     message = "Car is not affordable"
+// //     message = "Not affordable"
 // // }
 
 // // console.log(` ${budgetUSD >= bmwPriceUSD ? message:message}`)
@@ -285,3 +285,26 @@
         
 // }
 
+// 27. Булева логика
+//28. Логические операторы
+
+const isAdmin = true;
+const canWrite = true;
+
+console.log(`Is admin: ${isAdmin && canWrite}`)
+console.log(`Can write: ${isAdmin || canWrite}`)
+console.log(`Can't write: ${!canWrite}`)
+
+const isEdited = true;
+const superAdmin = true;
+
+console.log(`Can edit this file: ${isAdmin && canWrite && (!isEdited || superAdmin)}`)
+
+
+a = 6;
+
+if (a > 0 && a <= 5) {
+    console.log(`${a} is in 0-5 range`)
+} else {
+    console.log(`${a} is out of 0-5 range`)
+}
