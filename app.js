@@ -268,3 +268,20 @@
 // // }
 
 // // console.log(` ${budgetUSD >= bmwPriceUSD ? message:message}`)
+
+//Stop
+//26. Упражнение - Проверка робота
+
+// const captcha = (prompt('How much will be 7 + 15 or 7 - 15'))
+
+// switch (true) {
+//     case captcha == 22:
+//     case captcha == -8:
+//     case captcha == 'I am not a robot':
+//         console.log('You are not a robot')
+//         break;
+//     default:
+//         console.log('You are robot')
+        
+// }
+
