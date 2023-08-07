@@ -337,3 +337,29 @@
 // console.log(age ?? 18);
 
 // 31. Упражнение - Проверка прав
+
+// let balance  = 1008
+// let bonusBalance = 108
+
+// let isBanned = false;
+// let isExist = true;
+// let isSelling = true;
+
+// if (balance > 1000 || bonusBalance > 100) {
+//     if (!isBanned && !isExist && isSelling) {
+//         console.log('Can buy: Yes')
+//     } else {
+//         console.log('Can buy: No')
+// }
+// } else {
+//     console.log('Can buy: No')
+// }
+
+// const canBuy = (balance > 1000 || bonusBalance > 100) && !isBanned && !isExist && isSelling;
+
+// console.log(`Can buy: ${canBuy ? 'Yes' : 'No'}`)
+
+// console.log((true && 'd') ?? '')
+
+// Section 7. Функции
+// 32. Введение в функции
