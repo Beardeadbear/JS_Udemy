@@ -288,23 +288,46 @@
 // 27. Булева логика
 //28. Логические операторы
 
-const isAdmin = true;
-const canWrite = true;
+// const isAdmin = true;
+// const canWrite = true;
 
-console.log(`Is admin: ${isAdmin && canWrite}`)
-console.log(`Can write: ${isAdmin || canWrite}`)
-console.log(`Can't write: ${!canWrite}`)
+// console.log(`Is admin: ${isAdmin && canWrite}`)
+// console.log(`Can write: ${isAdmin || canWrite}`)
+// console.log(`Can't write: ${!canWrite}`)
 
-const isEdited = true;
-const superAdmin = true;
+// const isEdited = true;
+// const superAdmin = true;
 
-console.log(`Can edit this file: ${isAdmin && canWrite && (!isEdited || superAdmin)}`)
+// console.log(`Can edit this file: ${isAdmin && canWrite && (!isEdited || superAdmin)}`)
 
 
-a = 6;
+// a = 6;
 
-if (a > 0 && a <= 5) {
-    console.log(`${a} is in 0-5 range`)
-} else {
-    console.log(`${a} is out of 0-5 range`)
-}
+// if (a > 0 && a <= 5) {
+//     console.log(`${a} is in 0-5 range`)
+// } else {
+//     console.log(`${a} is out of 0-5 range`)
+// }
+
+//29. Операторы с другими типами
+
+// console.log('Stepan' || 'Bandera');
+// console.log(false || 'Bandera');
+// console.log('Stepan' || false);
+// console.log(false || false);
+
+// console.log('Stepan' && 'Bandera');
+// console.log(false && 'Bandera');
+// console.log('Stepan' && false);
+// console.log(false && false);
+
+// let a = 'Peter';
+
+// const username = a || 'Stepan'
+// console.log(username)
+
+// let isAdmin = false;
+// const file = isAdmin && 'mp4'
+// console.log(file)
+
+// 29. Операторы с другими типами
