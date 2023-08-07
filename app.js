@@ -331,3 +331,9 @@
 // console.log(file)
 
 // 29. Операторы с другими типами
+
+// let age = null;
+// console.log(age || 18);
+// console.log(age ?? 18);
+
+// 31. Упражнение - Проверка прав
