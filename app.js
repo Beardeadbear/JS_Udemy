@@ -363,3 +363,45 @@
 
 // Section 7. Функции
 // 32. Введение в функции
+
+// function logName() {
+//     console.log('My name is Illia')
+// }
+
+// logName();
+
+// const a = logName();
+
+// console.log(a)
+
+// function MyName(firstname, lastname) {
+//     console.log(`My name is ${firstname} ${lastname}`);
+
+// }
+
+// MyName('Illia', 'Kolosov')
+// MyName('Illia', 'Kolosov')
+// MyName('Illia', 'Kolosov')
+// MyName('Illia', 'Kolosov')
+
+// const depositUSD = 10000;
+// const annualRate = 0.07;
+// const  duration = 24;
+// const sum = depositUSD * (1 + annualRate / 12) ** 24;
+// console.log(sum)
+// // const houseCost = 13500
+
+function DepositSum(depositUSD, annualRate, duration) {
+    
+    sum = depositUSD * (1 + annualRate / 12) ** duration;
+    return sum
+}
+function DepositSum(depositUSD, annualRate, duration) {
+    return depositUSD * (1 + annualRate / 12) ** duration;
+    
+}
+
+const example1  = DepositSum(10000, 0.12, 24)
+
+console.log(example1);
+// console.log(DepositSum(10000, 0.12, 24));
