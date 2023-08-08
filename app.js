@@ -419,3 +419,14 @@
 // }
 
 // console.log(poft(7));
+
+//34. Стрелочные функции
+
+// const poft = (num) => num * num;
+// console.log(poft(5));
+
+const poft = (num) => {
+    console.log(num);
+    return num * num;
+}
+console.log(poft(6))
