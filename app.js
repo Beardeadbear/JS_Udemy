@@ -391,17 +391,31 @@
 // console.log(sum)
 // // const houseCost = 13500
 
-function DepositSum(depositUSD, annualRate, duration) {
+// function DepositSum(depositUSD, annualRate, duration) {
     
-    sum = depositUSD * (1 + annualRate / 12) ** duration;
-    return sum
-}
-function DepositSum(depositUSD, annualRate, duration) {
-    return depositUSD * (1 + annualRate / 12) ** duration;
+//     sum = depositUSD * (1 + annualRate / 12) ** duration;
+//     return sum
+// }
+// function DepositSum(depositUSD, annualRate, duration) {
+//     return depositUSD * (1 + annualRate / 12) ** duration;
     
-}
+// }
 
-const example1  = DepositSum(10000, 0.12, 24)
+// const example1  = DepositSum(10000, 0.12, 24)
 
-console.log(example1);
+// console.log(example1);
 // console.log(DepositSum(10000, 0.12, 24));
+
+//33. Анонимные функции
+
+// function powerOftwo(num) {
+//     return num * num;
+// }
+
+// console.log(powerOftwo(5));
+
+// const poft = function (num) {
+//     return num * num;
+// }
+
+// console.log(poft(7));
