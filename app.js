@@ -425,8 +425,21 @@
 // const poft = (num) => num * num;
 // console.log(poft(5));
 
-const poft = (num) => {
-    console.log(num);
-    return num * num;
-}
-console.log(poft(6))
+// const poft = (num) => {
+//     console.log(num);
+//     return num * num;
+// }
+// console.log(poft(6))
+
+// Упражнение - Упрощение функции
+
+// function toPower(num, power) {
+//     const res = num ** power;
+//     return res;
+// }
+// console.log(toPower(2, 2))
+
+// const tpres = (num, power) => num ** power;
+// console.log(tpres(2, 2))
+
+//36. Параметры по умолчанию
