@@ -443,3 +443,24 @@
 // console.log(tpres(2, 2))
 
 //36. Параметры по умолчанию
+
+// function toPower(num, power) {
+//     const power2 = power ?? 3;
+//     const res = num ** power2;
+//     return res;
+// }
+
+// console.log(toPower(2, 3))
+// console.log(toPower())
+
+// // function toPower(num, power) {
+// //     power = power ?? 3;
+// //     const res = num ** power;
+// //     return res;
+// // }
+
+// function toPower(num=2, power=3) {
+//         power = power ?? 3;
+//         const res = num ** power;
+//         return res;
+//     }
