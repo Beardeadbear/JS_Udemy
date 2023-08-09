@@ -477,5 +477,26 @@
 // const userAge = prompt(`Enter your age: `)
 // console.log(canAccess(userAge))
 
-const userAge = age => age > 18;
-console.log(userAge(19))
+// const userAge = age => age > 18;
+// console.log(userAge(19))
+
+// 38. Функции в функциях
+
+// const KG_IN_USD = 0.5;
+// const KM_IN_USD = 0.3;
+
+// function calculateWeight(present) {
+//     return present * KG_IN_USD
+// }
+
+// function calculateDist(distance) {
+//     return distance * KM_IN_USD
+// }
+
+// function calculateDelivery(present1, present2, distance) {
+//     price1 = calculateWeight(present1)
+//     price2 = calculateWeight(present2)
+//     distPrice = calculateDist(distance)
+//     return price1 + price2 + distPrice
+// }
+// console.log(calculateDelivery(4, 5, 25))
