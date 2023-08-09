@@ -464,3 +464,18 @@
 //         const res = num ** power;
 //         return res;
 //     }
+
+//37. Условия в функциях
+
+// function userAge(age) {
+//     if (age < 18) {
+//         return false
+//     }
+//     return true
+// }
+
+// const userAge = prompt(`Enter your age: `)
+// console.log(canAccess(userAge))
+
+const userAge = age => age > 18;
+console.log(userAge(19))
