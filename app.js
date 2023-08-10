@@ -532,3 +532,27 @@
 // Массивы
 
 // 40. Знакомство с массивами
+
+// const userRole1 = 'Admin';
+// const userRole2 = 'Manager';
+// const userRole3 = 'User'
+
+// const userRoles = ['Admin', 'Manager', 'User']
+
+// console.log(userRoles)
+// console.log(userRoles[0])
+// console.log(userRoles[1])
+// console.log(userRoles[2])
+// console.log(userRoles.length)
+// console.log(userRoles[userRoles.length - 1])
+
+// console.log(userRoles.at(0))
+// console.log(userRoles.at(-1))
+
+// const usersAge = [2057 - 2023, 40 - '6', 10>0 ? 10:0]
+
+// console.log(usersAge)
+
+
+// const userNames = new Array('Stepan', 'Illia', 'Joe');
+// console.log(userNames)
