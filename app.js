@@ -500,3 +500,35 @@
 //     return price1 + price2 + distPrice
 // }
 // console.log(calculateDelivery(4, 5, 25))
+
+// 39. Упражнение - Кредит на MacBook
+
+// function calculateCredit (age, job = false) {
+//     switch (true) {
+//         case age >= 24 && job:
+//             return 500
+//         case age >= 24:
+//             return 100
+//         default:
+//             return 0
+            
+//     }
+// }
+
+// function canBuy (itemPrice, age, deposit, job = false) {
+//     const creditMoney = calculateCredit(age, job)
+//     return  itemPrice <= creditMoney + deposit
+
+//     // switch (true) {
+//     //     case canPurchase >= itemPrice:
+//     //         return true;
+//     //     default:
+//     //         return false       
+//     // }
+// }
+
+// console.log(canBuy(2000, 25, 1500, true))
+
+// Массивы
+
+// 40. Знакомство с массивами
