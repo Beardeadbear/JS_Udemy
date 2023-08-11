@@ -556,3 +556,26 @@
 
 // const userNames = new Array('Stepan', 'Illia', 'Joe');
 // console.log(userNames)
+
+//41. Управление элементами массива
+
+// const userRoles = ['Admin', 'Manager', 'User']
+// console.log(userRoles.length)
+// console.log(userRoles)
+
+// userRoles[3] = 'SuperAdmin'
+
+// console.log(userRoles.length)
+// console.log(userRoles)
+
+// userRoles.push('Moderator')
+// userRoles.unshift('Exibitor')
+// console.log(userRoles)
+// const el1 = userRoles.pop()
+// console.log(el1)
+// const el2 = userRoles.shift()
+
+// console.log(el2)
+// console.log(userRoles)
+
+
