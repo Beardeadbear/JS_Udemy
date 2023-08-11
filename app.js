@@ -1,3 +1,7 @@
+function display(message) {
+    document.write(message + '<br \/>');
+}
+
 //Section 4. Основы
 
 // 12. Переменные и значения
@@ -578,4 +582,66 @@
 // console.log(el2)
 // console.log(userRoles)
 
+// 42. Поиск элемента
 
+
+// const userRoles = ['Admin', 'Manager', 'User']
+
+// const indOf = userRoles.indexOf('Admin')
+// console.log(indOf)
+
+// const indOf2 = userRoles.indexOf('SupoerAdmin')
+// console.log(indOf2)
+
+// // if (userRoles.indexOf('User') >= 0) {
+// //     console.log('You have access')
+// // } else {
+// //     console.log('You have no access')
+// // }
+
+// console.log(userRoles.includes('Admin'))
+
+
+// // if (userRoles.includes('Admin')) {
+// //     console.log('You have  access')
+// // } else {
+// //     console.log('You have no access')
+// // }
+
+// display(userRoles)
+
+// function display(message) {
+//     document.write(message + '<br \/>');
+// }
+
+// switch (true) {
+//     case userRoles.includes('User'):
+//         display('You have access')
+//         break
+//     default:
+//         display('You have no access')
+// }
+
+// 43. Slice, splice, concat, reverse
+// display(userRoles)
+// display(userRoles.length)
+
+// const userRoles = ['Admin', 'Manager', 'User', 'SuperAdmin']
+
+// // console.log(userRoles)
+
+// // const res = userRoles.slice(1, 4)
+// // console.log(res)
+
+// // const res = userRoles.splice(-1)
+// // console.log(userRoles)
+// // console.log(res)
+// console.log(userRoles)
+
+// const res1 = userRoles.reverse()
+// console.log(res1)
+
+// const newRoles = ['Devops', 'QA']
+
+// const res3 = userRoles.concat(newRoles)
+// console.log(res3)
