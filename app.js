@@ -659,41 +659,77 @@ function display(message) {
 
 // Упражнение - Обновление списка задач
 
-const tasks = ['Task 1']
-console.log(tasks)
+// const tasks = ['Task 1']
+// console.log(tasks)
 
-function Add(task) {
-    tasks.push(task);
-}
+// function Add(task) {
+//     tasks.push(task);
+// }
 
-function Remove(task) {
-    const index = tasks.indexOf(task);
-    if (index === -1) {
-         return;
-     } tasks.splice(index, 1);
+// function Remove(task) {
+//     const index = tasks.indexOf(task);
+//     if (index === -1) {
+//          return;
+//      } tasks.splice(index, 1);
     
-}
+// }
 
-function Priority(task) {
-    const index = tasks.indexOf(task);
-    console.log(index)
-    const oldTask = tasks[index];
-    if (index === -1) {
-        return;
-    } else {
-        tasks.splice(index, 1);
-        tasks.unshift(oldTask); 
-    }
-}
+// function Priority(task) {
+//     const index = tasks.indexOf(task);
+//     console.log(index)
+//     const oldTask = tasks[index];
+//     if (index === -1) {
+//         return;
+//     } else {
+//         tasks.splice(index, 1);
+//         tasks.unshift(oldTask); 
+//     }
+// }
 
-Add('Task 2')
-Add('Task 3')
-Remove('Task 2')
-Priority('Task 2')
+// Add('Task 2')
+// Add('Task 3')
+// Remove('Task 2')
+// Priority('Task 2')
 
 
 
-//console.log(tasks.length)
-console.log(tasks)
+// //console.log(tasks.length)
+// console.log(tasks)
 
 //46. Принцип DRY
+
+// const tasks = []
+// console.log(tasks)
+
+// function Add(task) {
+//     tasks.push(task);
+// }
+
+// function Remove(task) {
+//     const index = tasks.indexOf(task);
+//     if (index === -1) {
+//          return;
+//      } return tasks.splice(index, 1);
+    
+// }
+
+// function Priority(task) {
+//     const result = Remove(task);
+//     if (result) {
+//         tasks.unshift(result[0]); 
+//     }
+    
+// }
+
+// Add('Task 1')
+// Add('Task 2')
+// Add('Task 3')
+// console.log(tasks)
+
+// Remove('Task 6')
+// console.log(tasks)
+
+// Priority('Task 6')
+// console.log(tasks)
+
+//console.log(tasks.length)
