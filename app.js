@@ -733,3 +733,26 @@ function display(message) {
 // console.log(tasks)
 
 //console.log(tasks.length)
+
+// 47. Деструктуризация
+
+// const userData = ['Stepan', 25, 'Kyiv'];
+// console.log(userData)
+
+// const userName = userData[0]
+// const userAge = userData[1]
+// const userLocation = userData[2]
+
+// console.log(userName, userAge, userLocation)
+
+// function getData() {
+//     return ['Stepan', 25, 'Kyiv']
+// }
+
+// // const userName2 = getData()[0]
+// // const userAge2 = getData()[1]
+// // const userLocation2 = getData()[2]
+
+// const [userName2,_, userLocation2] = userData;
+
+// console.log(userName2, userLocation2)
