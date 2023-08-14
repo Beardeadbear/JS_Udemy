@@ -645,3 +645,55 @@ function display(message) {
 
 // const res3 = userRoles.concat(newRoles)
 // console.log(res3)
+
+// 44. Из строки в массив и обратно
+
+// const userRoles = ['Admin', 'Manager', 'User', 'SuperAdmin']
+
+// const url = 'auth/users/user_role'
+
+// const res = url.split('/')
+
+// console.log(res)
+// console.log(userRoles.join(' '))
+
+// Упражнение - Обновление списка задач
+
+const tasks = ['Task 1']
+console.log(tasks)
+
+function Add(task) {
+    tasks.push(task);
+}
+
+function Remove(task) {
+    const index = tasks.indexOf(task);
+    if (index === -1) {
+         return;
+     } tasks.splice(index, 1);
+    
+}
+
+function Priority(task) {
+    const index = tasks.indexOf(task);
+    console.log(index)
+    const oldTask = tasks[index];
+    if (index === -1) {
+        return;
+    } else {
+        tasks.splice(index, 1);
+        tasks.unshift(oldTask); 
+    }
+}
+
+Add('Task 2')
+Add('Task 3')
+Remove('Task 2')
+Priority('Task 2')
+
+
+
+//console.log(tasks.length)
+console.log(tasks)
+
+//46. Принцип DRY
