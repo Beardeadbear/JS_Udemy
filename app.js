@@ -763,3 +763,65 @@ function display(message) {
 // const [one, two, three, ...rest] = data
 // console.log(one, two, three)
 // console.log(rest)
+
+
+//49. Упражнение - Функция разбора URL
+
+// const myUrl = 'https://www.w3schools.com/js/js_syntax.asp'
+
+// function splitUrl (url) {
+
+//     if (url !== 'http') {
+//         return;
+//     } else {
+//         const res = url.split('/');
+//         console.log(res)
+//         const protocol = res[0]
+//         console.log(res[0])
+//     }
+    
+
+// }
+
+// 49. Упражнение - Функция разбора URL
+
+// // const myUrl = 'https://www.w3schools.com/js/js_syntax.asp';
+
+// // function splitUrl(url) {
+// //     const protocolIndex = url.indexOf('://');
+// //     if (protocolIndex !== -1) {
+// //         const protocol = url.substring(0, protocolIndex);
+// //         const path = url.substring(protocolIndex + 3); // +3 to skip the '://'
+// //         const pathParts = path.split('/');
+// //         const [domainName, ...urlPath] = pathParts;
+
+// //         console.log('Protocol:', protocol);
+// //         console.log('Domain name:', domainName);
+// //         console.log('Path:', urlPath.join('/'));
+
+// //     } else {
+// //         console.log('Invalid URL format');
+// //     }
+// // }
+
+// // splitUrl(myUrl);
+
+
+
+// const myUrl = 'https://www.w3schools.com/js/js_syntax.asp';
+
+// function splitUrl(url) {
+//     const protocolIndex = url.indexOf('http');
+//     if (protocolIndex !== -1) {
+//         const [protocol, _,host, ...path] = url.split('/')
+
+//         console.log(`Protocol: ${protocol.split(':')[0]}`);
+//         console.log(`Domain: ${host}`);
+//         console.log(`Path: /${path.join('/')}`);
+
+//     } else {
+//         console.log('Invalid URL format');
+//     }
+// }
+
+// splitUrl(myUrl);
