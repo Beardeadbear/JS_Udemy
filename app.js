@@ -756,3 +756,10 @@ function display(message) {
 // const [userName2,_, userLocation2] = userData;
 
 // console.log(userName2, userLocation2)
+
+//48. Rest оператор
+
+// const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+// const [one, two, three, ...rest] = data
+// console.log(one, two, three)
+// console.log(rest)
