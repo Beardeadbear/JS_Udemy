@@ -825,3 +825,12 @@ function display(message) {
 // }
 
 // splitUrl(myUrl);
+
+
+// 9. Циклы
+// 50. Цикл for
+
+for (let i = 0; i < 10; i++) {
+
+    console.log(i)
+}
