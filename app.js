@@ -859,3 +859,23 @@ function display(message) {
 //     console.log(element)
     
 // }
+
+// 52. Упражнение - Цикл в обратном порядке
+// const arr = ['!', 'JS', 'love', 'I'];
+// const newArray = []
+// for (let i = arr.length -1; i >= 0; i--) {
+
+//     newArray.push(arr[i])
+
+// }
+// console.log(newArray.join(' '));
+
+// 53. Цикл в цикле
+
+const elem = [[1, 'Task 1'], [2, 'Task 2']]
+
+for (let i =0; i < elem.length; i++) {
+    for (let j = 0; j < elem[i].length; j++) {
+        console.log(elem[i][j])
+    }
+}
