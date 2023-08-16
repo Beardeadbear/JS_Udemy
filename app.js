@@ -830,7 +830,32 @@ function display(message) {
 // 9. Циклы
 // 50. Цикл for
 
-for (let i = 0; i < 10; i++) {
+// for (let i = 0; i < 10; i++) {
 
-    console.log(i)
-}
+//     console.log(i)
+// }
+
+// 
+// 51. Break и continue
+
+// const tasks = ['Task 1', 'Task 2', 'Task 3']
+
+// for (let i = 0; i < tasks.length; i++) {
+//     if (tasks[i] === 'Task 2') {
+//         continue;
+//     }
+//     const element = tasks[i];
+//     console.log(element)
+    
+// }
+
+// console.log('-----')
+
+// for (let i = 0; i < tasks.length; i++) {
+//     if (tasks[i] === 'Task 2') {
+//         break;
+//     }
+//     const element = tasks[i];
+//     console.log(element)
+    
+// }
