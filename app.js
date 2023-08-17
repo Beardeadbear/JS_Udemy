@@ -872,10 +872,46 @@ function display(message) {
 
 // 53. Цикл в цикле
 
-const elem = [[1, 'Task 1'], [2, 'Task 2']]
+// const elem = [[1, 'Task 1'], [2, 'Task 2']]
 
-for (let i =0; i < elem.length; i++) {
-    for (let j = 0; j < elem[i].length; j++) {
-        console.log(elem[i][j])
-    }
-}
+// for (let i =0; i < elem.length; i++) {
+//     for (let j = 0; j < elem[i].length; j++) {
+//         console.log(elem[i][j])
+//     }
+// }
+
+// 54. Цикл while
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+    
+// }
+
+// let i = 0;
+// while (i < 5) {
+//     console.log(i);
+//     i++
+// }
+
+// let arr = [1, 2, 3, 6, 9, 7]
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 6) {
+//         break;
+//     }
+//     console.log(arr[i]);
+// } 
+
+// let i = 0
+
+// while (arr[i] <= 6 && i < arr.length ) {
+//     console.log(arr[i])
+//     i++;
+// }
+
+// let j = 0
+// do {
+//     console.log(j)
+//     j++
+
+// } while (j < 5)
