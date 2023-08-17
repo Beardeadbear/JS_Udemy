@@ -937,3 +937,51 @@ function display(message) {
 
 // 56. Упражнение - Расчёт итогового баланса
 
+
+// const operations = [1000, -700, 300, -500, 10000];
+// const startBalance = 100;
+
+// function getbalance(arrayOfOperations, initialBalance) {
+//     let balance  = initialBalance;
+//     for (const element of arrayOfOperations) {
+//         balance += element;
+//      }
+//      console.log(balance);
+// } 
+
+// getbalance(operations, startBalance);
+
+// function checkOperations(arrayOfOperations, initialBalance) {
+//     let balance  = initialBalance;
+//     let isTrue = true;
+//     for (const element of arrayOfOperations) {
+//         balance += element;
+//         if (balance < 0) {
+//             isTrue = false;
+//             break;
+//         }
+//      }
+//      console.log(isTrue);
+// } 
+
+// checkOperations(operations, startBalance);
+
+// function avarageOperations(arrayOfOperations) {
+//     let possitiveCount = 0;
+//     let positiveSum = 0;
+//     let negativeCount = 0;
+//     let negativeSum = 0;
+
+//     for (const element of arrayOfOperations) {
+//         if (element > 0) {
+//             possitiveCount ++;
+//             positiveSum += element
+//         }
+//         if (element < 0) {
+//             negativeCount ++;
+//             negativeSum += element 
+//         }  
+//     } return [positiveSum/possitiveCount, negativeSum / negativeCount]
+// }
+
+// console.log(avarageOperations(operations))
