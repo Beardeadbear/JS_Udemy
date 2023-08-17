@@ -915,3 +915,25 @@ function display(message) {
 //     j++
 
 // } while (j < 5)
+
+// 55. Циклы for of и for in
+
+// let arr = [1, 2, 3, 6, 9, 7]
+
+// // for (let i = 0; i < arr.length; i++) {
+
+// //     console.log(arr[i]);
+
+//     // }
+
+// for (let elem of arr) {
+//     console.log(elem);
+// }
+
+// for (let index in arr) {
+//     console.log(index);
+
+// }
+
+// 56. Упражнение - Расчёт итогового баланса
+
