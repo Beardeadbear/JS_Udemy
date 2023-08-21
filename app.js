@@ -1040,3 +1040,8 @@ console.log(powerOfThree(5))
 console.log(powerOfThree(10))
 
 console.log(power(2)(5));
+
+// 60. Упражнение - Стрелочные функции
+
+const powerOf = (pow) => num => num ** pow;
+console.log(powerOf(2)(5));
