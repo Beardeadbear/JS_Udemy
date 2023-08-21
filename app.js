@@ -1022,26 +1022,42 @@ function display(message) {
 
 // 59. Возврат функции
 
-function power(pow) {
+// function power(pow) {
 
-    return function (num) {
-        return num ** pow;
-    }
-}
+//     return function (num) {
+//         return num ** pow;
+//     }
+// }
 
-const powerOfTwo = power(2);
+// const powerOfTwo = power(2);
 
-console.log(powerOfTwo(5))
-console.log(powerOfTwo(10))
+// console.log(powerOfTwo(5))
+// console.log(powerOfTwo(10))
 
-const powerOfThree = power(3);
+// const powerOfThree = power(3);
 
-console.log(powerOfThree(5))
-console.log(powerOfThree(10))
+// console.log(powerOfThree(5))
+// console.log(powerOfThree(10))
 
-console.log(power(2)(5));
+// console.log(power(2)(5));
 
 // 60. Упражнение - Стрелочные функции
 
-const powerOf = (pow) => num => num ** pow;
-console.log(powerOf(2)(5));
+// const powerOf = (pow) => num => num ** pow;
+// console.log(powerOf(2)(5));
+
+// 61. forEach
+
+// const score = [5, 10, 0, 15]
+
+// // for (el of score) {
+// //     console.log('Round: ' + el)
+// // }
+
+// // for (const [i, el] of score.entries()) {
+// //     console.log(`Round ${i+1}: ${el}`)
+// // }
+
+// score.forEach((el, i) => {
+//     console.log(`Round ${i+1}: ${el}`)
+// })
