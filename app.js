@@ -1061,3 +1061,21 @@ function display(message) {
 // score.forEach((el, i) => {
 //     console.log(`Round ${i+1}: ${el}`)
 // })
+
+// 62. Map
+
+const score = [5, 10, 0, 15]
+
+score.forEach((scoreEl, scoreIndx) => {
+    console.log(`Round ${scoreIndx+1}: ${scoreEl}`)
+})
+
+const transactionsUSD = [10, -7, 50, -50, 100];
+
+const transactionUAH = transactionsUSD.map((transaction, i) => {
+
+    return transaction * 37;
+})
+
+console.log(transactionsUSD)
+console.log(transactionUAH)
