@@ -1019,3 +1019,24 @@ function display(message) {
 
 // res = calculate(3, 5, power);
 // console.log(res);
+
+// 59. Возврат функции
+
+function power(pow) {
+
+    return function (num) {
+        return num ** pow;
+    }
+}
+
+const powerOfTwo = power(2);
+
+console.log(powerOfTwo(5))
+console.log(powerOfTwo(10))
+
+const powerOfThree = power(3);
+
+console.log(powerOfThree(5))
+console.log(powerOfThree(10))
+
+console.log(power(2)(5));
