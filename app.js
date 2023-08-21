@@ -1082,14 +1082,21 @@ function display(message) {
 
 //63. filter
 
-const operations = [10, -7, 50, -50, 100];
+// const operations = [10, -7, 50, -50, 100];
 
-const positiveUAHOperations = operations
-.filter(operation => {
-    return operation > 0;
-})
-.map(operation => operation * 37)
+// const positiveUAHOperations = operations
+// .filter(operation => {
+//     return operation > 0;
+// })
+// .map(operation => operation * 37)
 
 
-console.log(positiveUAHOperations)
+// console.log(positiveUAHOperations)
 
+// 64. Упражнение - вывод изменений цен
+
+// const prices = [[100, 200], [120, 100], [200, 350]];
+
+// let result = prices.map(product => product[1] - product[0]).filter(price => price > 0)
+
+// console.log(result)
