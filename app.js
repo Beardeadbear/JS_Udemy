@@ -1064,18 +1064,32 @@ function display(message) {
 
 // 62. Map
 
-const score = [5, 10, 0, 15]
+// const score = [5, 10, 0, 15]
 
-score.forEach((scoreEl, scoreIndx) => {
-    console.log(`Round ${scoreIndx+1}: ${scoreEl}`)
+// score.forEach((scoreEl, scoreIndx) => {
+//     console.log(`Round ${scoreIndx+1}: ${scoreEl}`)
+// })
+
+// const transactionsUSD = [10, -7, 50, -50, 100];
+
+// const transactionUAH = transactionsUSD.map((transaction, i) => {
+
+//     return transaction * 37;
+// })
+
+// console.log(transactionsUSD)
+// console.log(transactionUAH)
+
+//63. filter
+
+const operations = [10, -7, 50, -50, 100];
+
+const positiveUAHOperations = operations
+.filter(operation => {
+    return operation > 0;
 })
+.map(operation => operation * 37)
 
-const transactionsUSD = [10, -7, 50, -50, 100];
 
-const transactionUAH = transactionsUSD.map((transaction, i) => {
+console.log(positiveUAHOperations)
 
-    return transaction * 37;
-})
-
-console.log(transactionsUSD)
-console.log(transactionUAH)
