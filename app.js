@@ -1147,3 +1147,24 @@ function display(message) {
 // }, 0);
 
 // console.log(avg)
+
+// 67. find и findIndex
+
+// const arr = [1, 4, 4, 10];
+
+// // let elGT5;
+
+// // for (el of arr) {
+// //     if (el > 5) {
+// //         elGT5 = el;
+// //         break;
+// //     }
+// // } 
+
+// // console.log(elGT5)
+
+// elGT5 = arr.find(el => el > 5);
+// console.log(elGT5)
+
+// indexGT5 = arr.findIndex(el => el > 5);
+// console.log(indexGT5)
