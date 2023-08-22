@@ -1119,17 +1119,31 @@ function display(message) {
 
 // console.log(finalBalance)
 
-const operations = [100, -20, 7, -30, 50]
+// const operations = [100, -20, 7, -30, 50]
 
 
 
-const minElement = operations.reduce((acc, operation) => {
-    if (operation > acc) {
-        return acc
-    } else {
-        return operation
-    }
-}, 0)
+// const minElement = operations.reduce((acc, operation) => {
+//     if (operation > acc) {
+//         return acc
+//     } else {
+//         return operation
+//     }
+// }, 0)
 
-console.log(minElement)
+// console.log(minElement)
 
+
+// 66. Упражнение - среднее значение
+
+// const arr = [1, 4, 4, 10];
+
+// const avg = arr.reduce((acc, el, i) => {
+//     if (i != arr.length -1) {
+//         return acc + el;
+//     } else {
+//         return (acc + el) / arr.length
+//     }
+// }, 0);
+
+// console.log(avg)
