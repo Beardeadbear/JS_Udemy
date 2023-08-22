@@ -1100,3 +1100,36 @@ function display(message) {
 // let result = prices.map(product => product[1] - product[0]).filter(price => price > 0)
 
 // console.log(result)
+
+// 65. reduce
+
+// const operations = [100, -20, 7, -30, 50]
+
+// // let balance = 0
+
+// // for (let operation of operations) {
+// //     balance += operation
+// // }
+
+// // console.log(balance)
+
+// const finalBalance = operations.reduce((acc, operation) => {
+//     return acc += operation
+// }, 0)
+
+// console.log(finalBalance)
+
+const operations = [100, -20, 7, -30, 50]
+
+
+
+const minElement = operations.reduce((acc, operation) => {
+    if (operation > acc) {
+        return acc
+    } else {
+        return operation
+    }
+}, 0)
+
+console.log(minElement)
+
