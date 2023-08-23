@@ -1198,36 +1198,55 @@ function display(message) {
 
 // 70. sort
 
-const users = ['Stepan', 'Ivan', 'Anna', 'Jane']
-console.log(users.sort())
+// const users = ['Stepan', 'Ivan', 'Anna', 'Jane']
+// console.log(users.sort())
 
 
 
-const operations = [100, 300, -450, - 300, 1500, 2345]
-const res = operations.sort();
-console.log(res)
+// const operations = [100, 300, -450, - 300, 1500, 2345]
+// const res = operations.sort();
+// console.log(res)
 
-// < 0 a, b - сохраняем порядок
-// > 0 b, a - меняем порядок
-const res2 = operations.sort((a,b) => {
-    if (a > b) {
-        return 1;
-    }
-    if (a < b) {
-        return -1;
-    }
-});
-console.log(res2)
+// // < 0 a, b - сохраняем порядок
+// // > 0 b, a - меняем порядок
+// const res2 = operations.sort((a,b) => {
+//     if (a > b) {
+//         return 1;
+//     }
+//     if (a < b) {
+//         return -1;
+//     }
+// });
+// console.log(res2)
 
-const res3 = operations.sort((a,b) => {
-    if (a < b) {
-        return 1;
-    }
-    if (a > b) {
-        return -1;
-    }
-});
-console.log(res3)
+// const res3 = operations.sort((a,b) => {
+//     if (a < b) {
+//         return 1;
+//     }
+//     if (a > b) {
+//         return -1;
+//     }
+// });
+// console.log(res3)
 
-const res4 = operations.sort((a,b) => a - b);
-console.log(res4)
+// const res4 = operations.sort((a,b) => a - b);
+// console.log(res4)
+
+// 71. Быстрое создание массивов
+
+// const arr = [1, 2, 3, 4]
+
+// // console.log(new Array(1,2,3,4,5));
+
+// // const arr2 = new Array(5);
+// // console.log(arr2);
+
+// // arr2.fill(1)
+// // console.log(arr2);
+
+// // arr2.fill(2,3,5)
+// // console.log(arr2);
+
+// const arr3 = Array.from({length: 100}, (cur, i) => i + 1);
+
+// console.log(arr3);
