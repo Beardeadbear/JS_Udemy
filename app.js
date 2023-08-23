@@ -1185,3 +1185,15 @@ function display(message) {
 // console.log(arr.some(el => el === 2));
 
 // 69. flat и flatMap
+
+// const prices = [[2, 4], [5, 8], [3, 7]];
+
+// const res = prices.flat().sort();
+// const res2 = prices.map(el => el + el).flat(3);
+// const res3 = prices.map(el => el + el).flat(3);
+
+// console.log(prices)
+// console.log(res)
+// console.log(res3)
+
+// 70. sort
