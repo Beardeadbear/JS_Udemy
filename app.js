@@ -1168,3 +1168,20 @@ function display(message) {
 
 // indexGT5 = arr.findIndex(el => el > 5);
 // console.log(indexGT5)
+
+// 68. Упражнение - реализация some
+
+// const arr = [2, 4, 4, 10];
+
+// function some (array, elem) {
+
+//     const res = array.find(el => el === elem);
+//     return res == undefined ? false : true;
+    
+// }
+
+// console.log(some(arr, 2));
+
+// console.log(arr.some(el => el === 2));
+
+// 69. flat и flatMap
