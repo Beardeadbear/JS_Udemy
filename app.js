@@ -1197,3 +1197,37 @@ function display(message) {
 // console.log(res3)
 
 // 70. sort
+
+const users = ['Stepan', 'Ivan', 'Anna', 'Jane']
+console.log(users.sort())
+
+
+
+const operations = [100, 300, -450, - 300, 1500, 2345]
+const res = operations.sort();
+console.log(res)
+
+// < 0 a, b - сохраняем порядок
+// > 0 b, a - меняем порядок
+const res2 = operations.sort((a,b) => {
+    if (a > b) {
+        return 1;
+    }
+    if (a < b) {
+        return -1;
+    }
+});
+console.log(res2)
+
+const res3 = operations.sort((a,b) => {
+    if (a < b) {
+        return 1;
+    }
+    if (a > b) {
+        return -1;
+    }
+});
+console.log(res3)
+
+const res4 = operations.sort((a,b) => a - b);
+console.log(res4)
