@@ -1046,7 +1046,7 @@ function display(message) {
 // const powerOf = (pow) => num => num ** pow;
 // console.log(powerOf(2)(5));
 
-// 61. forEach
+//61. forEach
 
 // const score = [5, 10, 0, 15]
 
@@ -1250,3 +1250,19 @@ function display(message) {
 // const arr3 = Array.from({length: 100}, (cur, i) => i + 1);
 
 // console.log(arr3);
+
+// Section 12: Работа со строками
+
+// 73. Базовые методы
+
+// const users = 'Stepan Bandera'
+
+
+// console.log(users[3])
+// console.log(users.charAt(3))
+// console.log(users.length)
+// console.log(users.indexOf('a')) // певое нахождение
+// console.log(users.lastIndexOf('a')) // последнее нахождение
+// console.log(users.includes('a'))
+
+// console.log(users.slice(7, 9))
