@@ -1266,3 +1266,13 @@ function display(message) {
 // console.log(users.includes('a'))
 
 // console.log(users.slice(7, 9))
+
+// // 74. Упражнение - выделение имени
+
+// const FullUserName = 'Вася aka Terminator Пупкин'
+
+// const userName = FullUserName.slice(0, FullUserName.indexOf(' '));
+// console.log(userName)
+
+// const userSurname = FullUserName.slice(FullUserName.lastIndexOf(' ', FullUserName.length))
+// console.log(userName + userSurname)
