@@ -1340,3 +1340,11 @@ function display(message) {
 // const arr = ['what', 'is', 'your', 'name', '?']
 
 // console.log(arr.join(' '))
+
+// 78. Дополнение строк
+
+// const film = 'Bad Santa'
+// const film2 = film.padStart(50, '*').padEnd(50, '*');
+
+// console.log(film2)
+// console.log(film2.repeat(2))
