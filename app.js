@@ -1276,3 +1276,19 @@ function display(message) {
 
 // const userSurname = FullUserName.slice(FullUserName.lastIndexOf(' ', FullUserName.length))
 // console.log(userName + userSurname)
+
+// 75. Преобразование строки
+
+// const str = 'Stepan Bandera'
+
+// console.log(str.toLocaleLowerCase())
+// console.log(str.toUpperCase())
+// console.log(str.toUpperCase())
+// console.log(str.replace('S', 'P'))
+// console.log(str.replace(/a/g, 'e'))
+
+// const str2 = ' Stepan Bandera \n'
+
+// console.log(str2.trim())
+
+// 76. Упражнение - проверка номера
