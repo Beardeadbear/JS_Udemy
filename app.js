@@ -1292,3 +1292,38 @@ function display(message) {
 // console.log(str2.trim())
 
 // 76. Упражнение - проверка номера
+
+// const num1 = '0633288366'
+// const num2 = '+380633288366'
+// const num1Error = '063328836 '
+// const num2Error = '+30633288366 '
+// const num3Error = '063-328-83-66'
+// const num4Error = '( 063)328-83-66'
+
+// function phoneNum (num) {
+//     num = num.trim();
+//     num = num.replace('+30', '+380')
+//     num = num.replace('0', '+380')
+//     num = num.replace('(', '')
+//     num = num.replace(')', '')
+//     num = num.replaceAll(' ', '')
+//     num = num.replaceAll('-', '')
+
+//     // if (num.length != 12) {
+//     //     return false;
+//     // }
+    
+//     // let onlyNumbers = true;
+//     // for (const char of num) {
+//     //     if (isNaN(Number(char))) {
+//     //         onlyNumbers = false;
+//     //         break;
+
+//     //     }
+//     // }
+//     return num 
+// }
+
+// console.log(phoneNum(num1))
+
+// 77. Строки и массивы
