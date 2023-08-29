@@ -1348,3 +1348,24 @@ function display(message) {
 
 // console.log(film2)
 // console.log(film2.repeat(2))
+
+
+// const card1 = '2346 7896 4587 3446'
+// const card2 = '2346 7896 4587 345'
+
+// function hideCard (cardNum) {
+//     cardNum = cardNum.trim();
+//     cardNum = cardNum.replaceAll(' ', '');
+
+//     if (cardNum.length != 16) {
+//         return 'Card is invalid';
+//     } 
+    
+//     return cardNum = cardNum.slice(-4).padStart(16, '*')
+//     }
+
+// console.log(hideCard(card1))
+
+// Objects
+
+// 80. Знакомство с объектами
