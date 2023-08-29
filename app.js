@@ -1327,3 +1327,16 @@ function display(message) {
 // console.log(phoneNum(num1))
 
 // 77. Строки и массивы
+
+// const userFullName = 'Stepan Bandera Ukraine'
+// console.log(userFullName)
+// console.log(userFullName.split(' '))
+
+// const [firstName, lastName, country] = userFullName.split(' ')
+// console.log(`First Name: ${firstName}`)
+// console.log(`Last Name: ${lastName}`)
+// console.log(`Country: ${country}`)
+
+// const arr = ['what', 'is', 'your', 'name', '?']
+
+// console.log(arr.join(' '))
