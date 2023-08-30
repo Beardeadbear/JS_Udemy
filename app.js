@@ -1370,13 +1370,34 @@ function display(message) {
 
 // 80. Знакомство с объектами
 
-const userSrray = ['Stepan', 'Bandera', 50]
+// const userArray = ['Stepan', 'Bandera', 50]
 
-const user = {
-    name: 'Stepan',
-    surname: 'Bandera',
-    age: 50
+// const user = {
+//     name: 'Stepan',
+//     surname: 'Bandera',
+//     age: 50,
+//     skills: ['JS', 'HTML', 'CSS'],
+//     eduBasic: 'School #4',
+//     eduPro: 'UAORT'
 
-};
+// };
 
-// 81. Обращение к элементам
+// // 81. Обращение к элементам
+
+// console.log(user.skills)
+// console.log(user['skills'])
+// const level = 'Pro'
+// console.log(user['edu' + level])
+
+// //const res = prompt('Enter object property ')
+// //console.log(user[res]);
+
+// user['country'] = 'Ukraine'
+// user['city']  = 'Kyiv'
+
+// user.age = 45
+// user['age'] = 40
+
+// user.nickname = 'KitKat'
+
+// console.log(user.nickname)
