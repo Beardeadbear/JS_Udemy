@@ -1369,3 +1369,14 @@ function display(message) {
 // Objects
 
 // 80. Знакомство с объектами
+
+const userSrray = ['Stepan', 'Bandera', 50]
+
+const user = {
+    name: 'Stepan',
+    surname: 'Bandera',
+    age: 50
+
+};
+
+// 81. Обращение к элементам
