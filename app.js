@@ -1401,3 +1401,20 @@ function display(message) {
 // user.nickname = 'KitKat'
 
 // console.log(user.nickname)
+
+// 82. Упражнение - сортировка пользователей
+
+
+const user = [
+
+    {name: "John", age: 37},
+    {name: "Jane", age: 25},
+    {name: "Anna", age: 16},
+    {name: "Dana", age: 56},
+] 
+
+
+
+console.log(user.sort((a, b) => a.age - b.age ));
+
+// 83. Упражнение - преобразование объектов
