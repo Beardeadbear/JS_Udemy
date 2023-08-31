@@ -1405,16 +1405,42 @@ function display(message) {
 // 82. Упражнение - сортировка пользователей
 
 
-const user = [
+// const user = [
 
-    {name: "John", age: 37},
-    {name: "Jane", age: 25},
-    {name: "Anna", age: 16},
-    {name: "Dana", age: 56},
-] 
+//     {name: "John", age: 37},
+//     {name: "Jane", age: 25},
+//     {name: "Anna", age: 16},
+//     {name: "Dana", age: 56},
+// ] 
 
 
 
-console.log(user.sort((a, b) => a.age - b.age ));
+// console.log(user.sort((a, b) => a.age - b.age ));
 
 // 83. Упражнение - преобразование объектов
+
+// const users = [
+//     {
+//         name: 'Stepan',
+//         surname: 'Bandera',
+//         age: 50,
+//         skills: ['JS', 'CSS', 'HTML']
+//     },
+//     {
+//         name: 'Bogdan',
+//         surname: 'Khmelnitsky',
+//         age: 45,
+//         skills: ['PHP', 'Python'] 
+//     }
+// ]
+
+// const usersData = users.map(user => {
+//     return {
+//         fullname: `${user.name} ${user.surname}`,
+//         skillNum: user.skills.length
+//     }
+// })
+// console.log(usersData)
+
+// 84. Методы объектов
+
