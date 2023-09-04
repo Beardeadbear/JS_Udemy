@@ -1444,3 +1444,15 @@ function display(message) {
 
 // 84. Методы объектов
 
+// const user = {
+//             name: 'Stepan',
+//             surname: 'Bandera',
+//             age: 50,
+//             getFullname: function () {
+//                 return this.name + ' ' + this.surname;
+//             }
+//         };
+
+
+// console.log(user.getFullname())
+     
