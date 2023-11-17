@@ -1456,7 +1456,3 @@ function display(message) {
 
 // console.log(user.getFullname())
 
-1
-2
-3
-4
